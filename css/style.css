@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    padding: 0.75rem 0;
+}
+
+
+
+/* Utility classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 3rem;  
+    overflow: hidden; 
+}
+
+.svg-icon{
+    height: 7rem;
+    max-width: auto;
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid #666363;
+    padding: 0.75rem 0.24rem;
+    color: #065A74;
+}
+
+/* padding */
+.py-1{  padding: 1.5rem 0;}
+.py-2{  padding: 2rem 0;}
+.py-3{  padding: 3rem 0;}
+.py-4{  padding: 4rem 0;}
+
+.p-1{   padding: 1.5rem}
+.p-2{   padding: 2rem;}
+.p-3{   padding: 3rem;}
+.p-4{   padding: 4rem;}
+.p-5{   padding: 5rem;}
+
+
+.btn-light{
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    padding: 0.625rem 0.45rem;
+    cursor: pointer;
+}
+
+.text-white{
+    color: #fff;
+
+}
+.text-primary{
+    color: #72D3F2;
+    font-size: 2rem;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.btn-sign{
+    display: inline-block;
+    border: none;
+    padding: 0.45rem .55rem;
+    border-radius: 1.35rem;
+    background: #72D3F2;
+    color: #fff;
+}
+
+.btn-tertiary{
+    background: #FFC400;
+    border: none;
+    padding: 0.65rem 0.3rem;
+    border-radius: 0.45rem;
+    color: #fff;
+}
+
+.m-heading{object-fit: contain;
+    font-size: 2.45rem;
+    margin-bottom: 0.17rem;
+    line-height: 1.4;
+}
+
+.lead{
+    font-size: 1.65rem;
+    margin-bottom: 0.3125rem;
+}
+
+/* NavBar */
+#navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFAFA;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 0.55rem;
+    text-transform: capitalize;
+    margin: 0 0.65rem;
+}
+
+#navbar ul li a span{
+    color: #000;
+}
+
+/*section: Showcase */
+#showcase{
+    display: flex;
+    margin: 5rem 0;
+    padding: 4rem 3.65rem;
+    /**/
+}
+#showcase .showcase-items{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#showcase  div{
+    flex: 1;
+}
+
+#showcase .showcase-content{
+    padding: 5rem 1rem;
+}
+
+
+
+#showcase .showcase-img img{
+    max-width: 100%;
+}
+
+/* Section: Get High Demand Skills */
+#demand-info .info-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Section: What we do */
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item{
+    padding: 1rem;
+    text-align: center;
+}
+
+#what .items .item p{
+    font-size: 1.22rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Section: categories */
+#categories .category-items{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#categories .category-items .category-item{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin: 0.75rem;
+    
+    
+}
+
+#categories .category-items .category-item  h3{
+    font-size: 1.33rem;
+}
+.box{
+    padding: 1rem 2.5rem;
+    background: #3BB1D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75),
+    0px 4px 4px rgba(0, 0, 0, 0.75);
+}
